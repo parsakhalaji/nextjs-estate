@@ -32,7 +32,7 @@ function Header() {
 
             <style jsx>{`
                 .container-wrapper {
-                    background-color: #000d16;
+                    background-color: #011f33;
                     height: 100vh;
                     width: 100%;
                 }

@@ -6,7 +6,7 @@ function Footer() {
             <div className="container-wrapper"></div>
             <style jsx>{`
                 .container-wrapper {
-                    background-color: #000d16;
+                    background-color: #011f33;
                     height: 30vh;
                     width: 100%;
                 }
