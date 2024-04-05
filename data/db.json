@@ -1,3 +1,19 @@
 {
-    "homes": [{}]
+    "homes": [
+        {"id": 1, "title": "vilayi", "price": 200},
+        {"id": 2, "title": "aparteman", "price": 433},
+        {"id": 3, "title": "vilayi", "price": 533},
+        {"id": 4, "title": "aparteman", "price": 564},
+        {"id": 5, "title": "maghaze", "price": 753},
+        {"id": 6, "title": "kolangi", "price": 664},
+        {"id": 7, "title": "vilayi", "price": 335},
+        {"id": 8, "title": "aparteman", "price": 225},
+        {"id": 9, "title": "vilayi", "price": 464},
+        {"id": 10, "title": "maghaze", "price": 356},
+        {"id": 11, "title": "vilayi", "price": 356},
+        {"id": 12, "title": "maghaze", "price": 353},
+        {"id": 13, "title": "aparteman", "price": 675},
+        {"id": 14, "title": "kolangi", "price": 979},
+        {"id": 15, "title": "aparteman", "price": 909}
+    ]
 }

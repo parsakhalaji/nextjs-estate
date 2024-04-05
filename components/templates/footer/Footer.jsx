@@ -4,6 +4,7 @@ function Footer() {
     return (
         <>
             <div className="container-wrapper"></div>
+
             <style jsx>{`
                 .container-wrapper {
                     background-color: #011f33;
