@@ -3,7 +3,7 @@ import '../styles/Home.module.css'
 
 function index() {
   return (
-    <div>Home Page</div>
+    <div>Home Page Real state</div>
   )
 }
 
