@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 
 function Header() {
     const [sidebarShow, setSidebarShow] = useState(false);
@@ -18,7 +19,7 @@ function Header() {
                 <div className="sidebar-title">
                     Parsa
                     <div onClick={sidebarShowHandler} className="toggle-icon">
-                        <RxHamburgerMenu />
+                        {sidebarShow ? <IoMdClose /> : <RxHamburgerMenu />}
                     </div>
                 </div>
                 <ul className="sidebar-items">
