@@ -45,10 +45,14 @@ function Header() {
 
             <style jsx>{`
                 .container-wrapper {
-                    background-color: #011f33;
                     height: 50vh;
                     width: 100%;
                     margin-bottom: 2rem;
+                    background: #011f33 url("/images/bg.jpg") no-repeat top right;
+                    background-size: contain;
+                    background-position: center;
+
+
                 }
                 .sidebar-wrapper {
                     width: 250px;

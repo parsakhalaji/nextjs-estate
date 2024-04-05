@@ -18,7 +18,7 @@ function HouseCard({ id, title, price }) {
                     <p className="card-text">
                         <strong>{price},000$</strong>
                     </p>
-                    <Link href={`/houses/${id}`} className="card-link">
+                    <Link href={`/houses/${id}`} className="card-link btn btn-primary text-light">
                         Details
                     </Link>
                 </div>
