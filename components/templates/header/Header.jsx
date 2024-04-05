@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
+import Link from "next/link";
 
 function Header() {
     const [sidebarShow, setSidebarShow] = useState(false);
@@ -23,9 +24,21 @@ function Header() {
                     </div>
                 </div>
                 <ul className="sidebar-items">
-                    <li className="sidebar-item">Home</li>
-                    <li className="sidebar-item">Houses</li>
-                    <li className="sidebar-item">Contact us</li>
+                    <li className="sidebar-item">
+                        <Link onClick={sidebarShowHandler} href="/">
+                            Home
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link onClick={sidebarShowHandler} href="/houses">
+                            All Houses
+                        </Link>
+                    </li>
+                    <li className="sidebar-item">
+                        <Link onClick={sidebarShowHandler} href="/">
+                            About Us
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className="container-wrapper"></div>
@@ -33,8 +46,9 @@ function Header() {
             <style jsx>{`
                 .container-wrapper {
                     background-color: #011f33;
-                    height: 100vh;
+                    height: 50vh;
                     width: 100%;
+                    margin-bottom: 2rem;
                 }
                 .sidebar-wrapper {
                     width: 250px;

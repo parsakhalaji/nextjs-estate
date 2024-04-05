@@ -10,6 +10,7 @@ function Footer() {
                     background-color: #011f33;
                     height: 30vh;
                     width: 100%;
+                    margin-top: 2rem;
                 }
             `}</style>
         </>

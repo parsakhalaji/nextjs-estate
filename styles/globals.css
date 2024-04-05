@@ -5,4 +5,11 @@
     font-family: sans-serif;
 }
 
+.sidebar-wrapper {
+    z-index: 9999;
+}
 
+a {
+    color: black !important;
+    text-decoration: none !important;
+}
